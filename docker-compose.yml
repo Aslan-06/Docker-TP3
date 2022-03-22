@@ -3,12 +3,12 @@ version: '3.8'
 services:
   loadbalancerService:
     image:  nginx
-    container_name: loadBalancer
+    container_name: LoadBalancer
 
   backendService:
     image: php-fpm
-    container_name: backendPhp
+    container_name: BackendPhp
 
   databaseService:
     image: mariadb
-    container_name: database
+    container_name: Database
